@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "navigation.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+
+  background-image: url("../img/NatureWallPaper2.jpg");
+  background-size: 100% 100%;
+}

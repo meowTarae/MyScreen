@@ -1,0 +1,9 @@
+.container {
+  box-sizing: content-box;
+}
+
+.navBar {
+  box-sizing: border-box;
+  background-color: tomato;
+  height: 10vh;
+}
