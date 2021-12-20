@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
 .container {
   box-sizing: content-box;
 }
 
 .navBar {
+  position: absolute;
   box-sizing: border-box;
-  background-color: tomato;
   height: 10vh;
+  top: 1%;
+  right: 6%;
+}
+
+header {
+  margin-right: 6%;
+
+  font-family: "Oooh Baby", cursive;
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
 }
