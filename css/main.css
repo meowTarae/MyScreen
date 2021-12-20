@@ -8,7 +8,7 @@
 }
 
 .main {
-  width: 30%;
+  width: 25%;
   height: 100%;
   box-sizing: content-box;
 }
@@ -22,4 +22,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clock::before {
+  position: absolute;
+  content: "";
+
+  width: 25%;
+  height: 30%;
+
+  border: white 5px solid;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.1;
+  filter: blur(5px);
 }
