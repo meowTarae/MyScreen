@@ -10,4 +10,16 @@
 .main {
   width: 30%;
   height: 100%;
+  box-sizing: content-box;
+}
+
+.clock {
+  margin-top: 30%;
+
+  box-sizing: border-box;
+  height: 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
