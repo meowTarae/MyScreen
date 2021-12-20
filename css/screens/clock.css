@@ -1,0 +1,25 @@
+.clock {
+  color: white;
+}
+
+.clockBox1,
+.clockBox2,
+.clockBox3 {
+  font-size: 14vh;
+}
+
+.clockBox4 {
+  font-size: 5vh;
+
+  margin-top: 1%;
+}
+
+.ampm {
+  border-bottom: white 1px solid;
+  padding-bottom: 7px;
+}
+
+.sec {
+  margin-top: 1px;
+  display: flex;
+}
