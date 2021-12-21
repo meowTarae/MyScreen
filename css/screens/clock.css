@@ -1,5 +1,8 @@
 .clock {
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clockBox1,
@@ -8,18 +11,34 @@
   font-size: 14vh;
 }
 
+.clockBox2 {
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+
 .clockBox4 {
   font-size: 5vh;
 
   margin-top: 1%;
+  margin-left: 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .ampm {
   border-bottom: white 1px solid;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
 }
 
 .sec {
   margin-top: 1px;
   display: flex;
+  justify-content: space-evenly;
+}
+
+.sec div:first-child {
+  margin-right: 2%;
 }
