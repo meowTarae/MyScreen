@@ -7,7 +7,7 @@
 
 
 
-1. 가운데 시계놓고 밑에 wellcome tarae 넣고 ( + div에 blur넣고 )
+1. 가운데 시계놓고 밑에 wellcome tarae 넣고 ( + div에 blur넣고 ) ✔
 
 2. 왼쪽에 desk넣고 ( toDoList 하나만 넣자 )
 
@@ -23,3 +23,14 @@
 .
 
 
+keyup, down
+
+orientationchange
+
+webkitvisibilitychange
+
+wheel
+휠 한번 올리고 내리면 +120, -120
+이걸로 스크롤 건드리는듯?
+
+scroll
