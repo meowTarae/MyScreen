@@ -3,6 +3,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 25%;
+  box-sizing: border-box;
+  height: 30%;
+}
+
+.clock::before {
+  position: absolute;
+  content: "";
+
+  width: 24%;
+  height: 15%;
+
+  border: white 5px solid;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.1;
+  filter: blur(15px);
+
+  margin-top: 1%;
 }
 
 .clockBox1,
