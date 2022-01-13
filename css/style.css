@@ -2,6 +2,7 @@
 @import "./components/navigation.css";
 @import "./screens/screen.css";
 @import "./screens/clock.css";
+@import "./screens/shortcut.css";
 
 * {
   box-sizing: border-box;
