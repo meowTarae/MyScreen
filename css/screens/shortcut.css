@@ -1,5 +1,5 @@
 .shortcutBox {
-  margin-top: 6%;
+  margin-top: 4%;
   /* 위에 시계랑 거리 벌려두는 용도 */
 
   box-sizing: border-box;
@@ -12,4 +12,6 @@
 }
 
 .shortcut {
+  background-color: beige;
+  border-radius: 50%;
 }
