@@ -1,17 +1,23 @@
-.shortcutBox {
+.shortcut {
   margin-top: 4%;
   /* 위에 시계랑 거리 벌려두는 용도 */
 
   box-sizing: border-box;
-  height: 20%;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
-  align-items: center;
+  place-items: center;
 }
 
-.shortcut {
-  background-color: beige;
-  border-radius: 50%;
+.addShortcut {
+  border: 1px solid snow;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#addShortcutIcon {
+  width: 100%;
+  height: 100%;
 }

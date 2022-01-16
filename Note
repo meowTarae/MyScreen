@@ -40,18 +40,6 @@ shortcut 클릭시 그 url로 이동하게 하고
 마우스 휠로 내리면 2번째 페이지 이동해서
 왼쪽 desk를 아래에 넣고 toDoList 페이지로 만들면 좋을 것 같아
 
-.
-.
 
 
-keyup, down
-
-orientationchange
-
-webkitvisibilitychange
-
-wheel
-휠 한번 올리고 내리면 +120, -120
-이걸로 스크롤 건드리는듯?
-
-scroll
+다 만들면 깃허브에 퍼블리시까지 하면 끝
